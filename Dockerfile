@@ -7,4 +7,3 @@ RUN rm -rf traveler.zip
 RUN mv free-travel-website-template/* .
 RUN rm -rf free-travel-website-template
 CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
-
